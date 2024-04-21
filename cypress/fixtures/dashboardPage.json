@@ -1,0 +1,4 @@
+{
+    "txtAdminManagement":
+          {"expectedValue":"Dashboard", "xPath":"//h6[text()='User Management']","cssSelector":"[class*='oxd-topbar-header-breadcrumb']>h6", "waitInSec":"2"}
+}

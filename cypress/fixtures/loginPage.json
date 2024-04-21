@@ -1,0 +1,18 @@
+{
+
+"txtPassword":
+      {"expectedValue":"Password : admin123", "xPath":"//p[text()='Password : admin123']","cssSelector":"[class*='orangehrm-demo-credentials']>p:nth-child(2)", "waitInSec":"2"},
+"inputTxtUsername":
+      {"inputValue":"Admin", "incorrectUsername":"Amin","xPath":"//input[@name='username' and @placeholder='Username']","cssSelector":"[name='username' ]", "waitInSec":"2"},
+"inputTxtPassword":
+      {"inputValue":"admin123","incorrectpuPassword":"amin123", "xPath":"//input[@name='password' and @placeholder='Password']","cssSelector":"[name='password']", "waitInSec":"2"},     
+"btnSubmit":
+      {"expectedValue":" Login ", "xPath":"//button[@type='submit']","cssSelector":"[type='submit']", "waitInSec":"2"},
+"txtForgotPassword":
+      {"expectedValue":"Forgot your password? ", "xPath":"//p[text()='Forgot your password? ']","cssSelector":".orangehrm-login-forgot>p", "waitInSec":"2"},
+"txtInvalidCredsAlert":
+      {"expectedValue":"Invalid credentials","xPath":"//p[contains(@class,'alert-content-text')]", "cssSelector":"[class*='alert-content-text']","waitInSec":3000}
+
+
+
+}
